@@ -2,14 +2,9 @@
   "name": "xwing-miniatures-font",
   "version": "1.0.17",
   "description": "Font for the X-Wing Miniatures game",
-  "main": [
-    "dist/xwing-miniatures.css",
-    "dist/xwing-miniatures.ttf",
-    "dist/xwing-miniatures-ships.ttf"
-  ],
+  "main": "dist/xwing-miniatures.css",
   "scripts": {
     "build": "grunt",
-    "postinstall": "./node_modules/bower/bin/bower install --config.interactive=false",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Geordan Rosario <geordan@gmail.com>",
